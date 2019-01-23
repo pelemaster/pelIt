@@ -7,8 +7,13 @@ import {
     Image,
     StyleSheet,
     Dimensions} from 'react-native';
+import { connect } from 'react-redux'
+import { getUserMenu } from '../actions/commonActions'
 
-export default class HomeScreen extends React.Component {
+class HomeScreen extends React.Component {
+    componentWillMount() {
+        this.props.getUserMenu()
+    }
     render() {
         return (
         <ScrollView>
@@ -37,6 +42,12 @@ export default class HomeScreen extends React.Component {
         )
     }
 }
+
+const mapStateToProps = (state) => {
+    return state
+}
+
+export default connect(mapStateToProps,{ getUserMenu })(HomeScreen)
 
 const apps = [
     { name: "", image: require("./apps/Maf/mafLogo.png"), goto: "MAF" },

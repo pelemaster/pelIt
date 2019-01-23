@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'
 import ReduxThunk from 'redux-thunk'
 import reducers from '../reducers'
+import ErrorCatcher from './ErrorCatcher'
 import Router from './apps/Router'
 
 class App extends React.Component {
@@ -11,7 +12,9 @@ class App extends React.Component {
 
         return (
             <Provider store={store}>
-                <Router />
+                <ErrorCatcher>
+                    <Router />
+                </ErrorCatcher>
             </Provider>
         )
     }

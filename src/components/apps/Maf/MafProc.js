@@ -2,7 +2,7 @@ import React from 'react'
 import { ScrollView, Text } from 'react-native'
 import { Card } from 'react-native-elements'
 import { connect } from 'react-redux'
-import { mafGetProc, mafGetBacklog } from '../../../actions/MafActions'
+import { mafGetProc, mafGetBacklog } from './MafActions'
 import ProcList from './procList'
 
 class MafProc extends React.Component {

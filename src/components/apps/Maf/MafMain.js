@@ -6,7 +6,7 @@ import {
     Text, 
     Divider } from 'react-native-elements'
 import { connect } from 'react-redux'
-import { mafGetProc, mafGetBacklog } from '../../../actions/MafActions'
+import { mafGetProc, mafGetBacklog } from './MafActions'
 import ProcList from './procList'
 
 class MafMain extends React.Component {

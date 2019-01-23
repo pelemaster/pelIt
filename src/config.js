@@ -3,7 +3,8 @@ const env = 'DEV'
 
 const envConfig = {
     'DEV': {
-        'backendURL' : 'https://msso.pelephone.co.il/mobileAppGw/dev/'
+        'backendURL' : 'https://msso.pelephone.co.il/mobileAppGw/dev/',
+        'getMenuURL' : 'http://msso.pelephone.co.il/DV/MobileServices/SSOService.svc/json/GetUserMenu'
     },
     'PROD': {
         'backendURL' : 'https://msso.pelephone.co.il/mobileAppGw/prod/'

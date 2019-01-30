@@ -1,0 +1,33 @@
+Accept: application/json, text/plain, */*
+Referer: http://localhost:8100/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+x-appid: 72AFFB3B8BC25811E0535B07AE0A50E6
+x-msisdn: 972505903471
+x-pincode: 1293
+x-token: d9d6c6c2-5bf2-43b5-a6e4-fad32afc5811
+x-username: emil
+
+getUserMenu:
+{"ActivePin":null,"Error":null,"ErrorDesc":null,"PinCode":"1293","Status":"Valid","StatusDesc":"",
+"menuItems":[
+    {"AppId":"6089BE9C3A631E3BE0535B07AE0A9503",
+    "ApplicationType":"INT","DisplayName":"אלפון עובדים",
+    "Image":"img\/new_icons\/phonebook.png","Location":"s m1",
+    "Path":"app.phonebook","Pin":false,"Sorter":"01","WorkState":"online"},
+    {"AppId":"6428AE51C7AE203FE0535B07AE0A48DC","ApplicationType":"EXT",
+    "DisplayName":"הזמנת ארוחות","Image":"img\/new_icons\/cibus.png",
+    "Location":"s m2","Path":
+    "https:\/\/www.mysodexo.co.il\/","Pin":false,"Sorter":"06","WorkState":
+    "online"},
+    {"AppId":"72AFFB3B8BC25811E0535B07AE0A50E6","ApplicationType":"INT",
+    "DisplayName":"קידום מארזים","Image":"img\/new_icons\/cc.png","Location":"s m2",
+    "Path":"app.cc.getenv","Pin":false,"Sorter":"11","WorkState":"online"},
+    {"AppId":"66D2B957FB1A31C9E0535B07AE0ADB49","ApplicationType":"INT",
+    "DisplayName":"השגרירים - כאן בשבילך",
+    "Image":"https:\/\/msso.pelephone.co.il\/mobileAppGw\/public\/media\/shagririm.png","Location":"s m1",
+    "Path":"app.leads.task","Pin":false,"Sorter":"03","WorkState":"online"},
+    {"AppId":"6B0DDE92C6DF505FE0535B07AE0AA330","ApplicationType":"INT","DisplayName":"יומן המכירות שלי","Image":"img\/new_icons\/leads.png","Location":"s m2",
+    "Path":"app.leads.self","Pin":false,"Sorter":"05","WorkState":"online"}],
+"msisdn":"972505903471",
+"token":"d9d6c6c2-5bf2-43b5-a6e4-fad32afc5811",
+"user":"307352948","userName":"emil"}

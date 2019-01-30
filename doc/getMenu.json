@@ -1,0 +1,28 @@
+ActivePin: null
+Error: null
+ErrorDesc: null
+PinCode: "9867"
+Status: "Valid"
+StatusDesc: ""
+menuItems: Array(5)
+0: {AppId: "6089BE9C3A631E3BE0535B07AE0A9503", ApplicationType: "INT", DisplayName: "אלפון עובדים", Image: "img/new_icons/phonebook.png", Location: "s m1", …}
+1: {AppId: "6428AE51C7AE203FE0535B07AE0A48DC", ApplicationType: "EXT", DisplayName: "הזמנת ארוחות", Image: "img/new_icons/cibus.png", Location: "s m2", …}
+2:
+AppId: "72AFFB3B8BC25811E0535B07AE0A50E6"
+ApplicationType: "INT"
+DisplayName: "קידום מארזים"
+Image: "img/new_icons/cc.png"
+Location: "s m2"
+Path: "app.cc.getenv"
+Pin: false
+Sorter: "11"
+WorkState: "online"
+__proto__: Object
+3: {AppId: "66D2B957FB1A31C9E0535B07AE0ADB49", ApplicationType: "INT", DisplayName: "השגרירים - כאן בשבילך", Image: "https://msso.pelephone.co.il/mobileAppGw/public/media/shagririm.png", Location: "s m1", …}
+4: {AppId: "6B0DDE92C6DF505FE0535B07AE0AA330", ApplicationType: "INT", DisplayName: "יומן המכירות שלי", Image: "img/new_icons/leads.png", Location: "s m2", …}
+length: 5
+__proto__: Array(0)
+msisdn: "972505903471"
+token: "cbe0c8ef-1b4e-41e7-8082-842fb03d88b0"
+user: "307352948"
+userName: "emil"
